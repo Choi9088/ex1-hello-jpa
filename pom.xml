@@ -21,6 +21,16 @@
             <artifactId>h2</artifactId>
             <version>1.4.199</version>
         </dependency>
+
+        <!-- 에러 처리용 -->
+        <!-- hibernate.properties not found -->
+        <!-- Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
