@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정">
+    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
     </list>
@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2biDTife23znyX3ICR3OaJHXafk" />
@@ -86,13 +91,32 @@
       <option name="project" value="LOCAL" />
       <updated>1706716001686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회">
+      <created>1706717310415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706717310415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[2-1]Hello JPA - 프로젝트 생성" />
     <MESSAGE value="[2-1]Hello JPA-프로젝트 생성 (1)회원 등록" />
     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
+    <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회" />
   </component>
 </project>
