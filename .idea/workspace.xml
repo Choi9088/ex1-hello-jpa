@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회">
+    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[3-1]영속성컨텍스트1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/hyeonjichoi/Desktop/DevStudy/[인프런]자바ORM표준 JPA프로그래밍-기본편/ex1-hello-jpa"
   }
 }]]></component>
   <component name="RunManager">
@@ -98,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706717310415</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[3-1]영속성컨텍스트1">
+      <created>1706772363457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706772363457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +126,7 @@
     <MESSAGE value="[2-1]Hello JPA-프로젝트 생성 (1)회원 등록" />
     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회" />
+    <MESSAGE value="[3-1]영속성컨텍스트1" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3-1]영속성컨텍스트1" />
   </component>
 </project>
