@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[3-2]영속성컨텍스트2&#10;- 1차캐시 확인&#10;- 엔티티의 동일성 보장 확인&#10;- 쓰기지연 확인&#10;- 변경감지 확인">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_3_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,11 +47,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hellojpa" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hellojpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JpaMain_3_3">
+  <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
       <module name="ex1-hello-jpa" />
@@ -78,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JpaMain_3_3" />
         <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Application.JpaMain_3_3" />
         <item itemvalue="Application.JpaMain_3_3" />
         <item itemvalue="Application.JpaMain" />
         <item itemvalue="Application.JpaMain_3_3" />
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706862677183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[3-3] 플러시(정리)">
+      <created>1707027144614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707027144614</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +170,7 @@
     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (3)JPQL_전체회원 조회" />
     <MESSAGE value="[3-1]영속성컨텍스트1" />
     <MESSAGE value="[3-2]영속성컨텍스트2&#10;- 1차캐시 확인&#10;- 엔티티의 동일성 보장 확인&#10;- 쓰기지연 확인&#10;- 변경감지 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3-2]영속성컨텍스트2&#10;- 1차캐시 확인&#10;- 엔티티의 동일성 보장 확인&#10;- 쓰기지연 확인&#10;- 변경감지 확인" />
+    <MESSAGE value="[3-3] 플러시(정리)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3-3] 플러시(정리)" />
   </component>
 </project>
