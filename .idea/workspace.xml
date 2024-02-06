@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[3-2]영속성컨텍스트2&#10;- 1차캐시 확인&#10;- 엔티티의 동일성 보장 확인&#10;- 쓰기지연 확인&#10;- 변경감지 확인">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[4-3] 필드와 컬럼 매핑">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section3/Member3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section4/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section4/Member4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section4/RoleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,28 +38,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2biDTife23znyX3ICR3OaJHXafk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hyeonjichoi/Desktop/DevStudy/[인프런]자바ORM표준 JPA프로그래밍-기본편/ex1-hello-jpa&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/hyeonjichoi/Desktop/DevStudy/[인프런]자바ORM표준 JPA프로그래밍-기본편/ex1-hello-jpa/src/main/resources/META-INF"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hellojpa" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="section4" />
       <recent name="hellojpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JpaMain">
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
       <module name="ex1-hello-jpa" />
@@ -81,12 +93,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section3.Main3" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section4.Main4" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="section3.JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section3.JpaMain" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4" />
         <item itemvalue="Application.JpaMain" />
-        <item itemvalue="Application.JpaMain_3_3" />
-        <item itemvalue="Application.JpaMain_3_3" />
-        <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.section3.JpaMain" />
         <item itemvalue="Application.JpaMain_3_3" />
       </list>
     </recent_temporary>
@@ -149,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707027144614</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[4-3] 필드와 컬럼 매핑">
+      <created>1707031598418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707031598418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +229,7 @@
     <MESSAGE value="[3-1]영속성컨텍스트1" />
     <MESSAGE value="[3-2]영속성컨텍스트2&#10;- 1차캐시 확인&#10;- 엔티티의 동일성 보장 확인&#10;- 쓰기지연 확인&#10;- 변경감지 확인" />
     <MESSAGE value="[3-3] 플러시(정리)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[3-3] 플러시(정리)" />
+    <MESSAGE value="[4-3] 필드와 컬럼 매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4-3] 필드와 컬럼 매핑" />
   </component>
 </project>

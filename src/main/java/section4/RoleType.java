@@ -1,0 +1,1 @@
+package section4;public enum RoleType {    USER, ADMIN}
