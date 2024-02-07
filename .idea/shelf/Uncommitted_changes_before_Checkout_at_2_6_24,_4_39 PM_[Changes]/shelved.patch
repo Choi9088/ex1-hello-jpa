@@ -1,0 +1,68 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dc775715-247b-46af-96c6-7e4dfe121c34\" name=\"Changes\" comment=\"[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2biDTife23znyX3ICR3OaJHXafk\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showExcludedFiles\" value=\"false\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration name=\"JpaMain\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"hellojpa.JpaMain\" />\n      <module name=\"ex1-hello-jpa\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"hellojpa.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.JpaMain\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dc775715-247b-46af-96c6-7e4dfe121c34\" name=\"Changes\" comment=\"\" />\n      <created>1706689015243</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1706689015243</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"[2-1]Hello JPA - 프로젝트 생성\">\n      <created>1706689537962</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706689537962</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"[2-1]Hello JPA-프로젝트 생성 (1)회원 등록\">\n      <created>1706692799953</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706692799953</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정\">\n      <created>1706716001686</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706716001686</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"[2-1]Hello JPA - 프로젝트 생성\" />\n    <MESSAGE value=\"[2-1]Hello JPA-프로젝트 생성 (1)회원 등록\" />\n    <MESSAGE value=\"[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6687d724613b34e1f8ca975c3701570d791c3b54)
++++ b/.idea/workspace.xml	(date 1707205136894)
+@@ -4,10 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+-    </list>
++    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="..?" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -24,7 +21,9 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="2biDTife23znyX3ICR3OaJHXafk" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showExcludedFiles" value="false" />
+@@ -33,7 +32,8 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true"
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+   }
+ }]]></component>
+   <component name="RunManager">
+@@ -86,13 +86,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1706716001686</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="..?">
++      <created>1707205118720</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1707205118720</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="[2-1]Hello JPA - 프로젝트 생성" />
+     <MESSAGE value="[2-1]Hello JPA-프로젝트 생성 (1)회원 등록" />
+     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
+-    <option name="LAST_COMMIT_MESSAGE" value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
++    <MESSAGE value="..?" />
++    <option name="LAST_COMMIT_MESSAGE" value="..?" />
+   </component>
+ </project>
+\ No newline at end of file
