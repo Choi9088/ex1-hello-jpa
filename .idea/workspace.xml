@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[5-2] 양방향 연관관계와 연관관계의 주인_(1)기본">
+    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[5-3] 양방향 연관관계와 연관관계의 주인_(2)주의점,정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/section5/Member5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section5/Member5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/section5/Team5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section5/Team5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/section5/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section5/Test5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708145127487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[5-3] 양방향 연관관계와 연관관계의 주인_(2)주의점,정리">
+      <created>1708151099495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708151099495</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +227,7 @@
     <MESSAGE value="[5-1] 단방향 연관관계 - (1)테이블에 맞춰 모델링" />
     <MESSAGE value="[5-1] 단방향 연관관계 - (2)객체지향 모델링" />
     <MESSAGE value="[5-2] 양방향 연관관계와 연관관계의 주인_(1)기본" />
-    <option name="LAST_COMMIT_MESSAGE" value="[5-2] 양방향 연관관계와 연관관계의 주인_(1)기본" />
+    <MESSAGE value="[5-3] 양방향 연관관계와 연관관계의 주인_(2)주의점,정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[5-3] 양방향 연관관계와 연관관계의 주인_(2)주의점,정리" />
   </component>
 </project>
