@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[4-5] 실전예제1-요구사항 분석과 기본 매핑&#10;- 실전예제 프로젝트는 com.jpashop에 구현&#10;- 수업내용 연습코드는 각 section별 패키지에 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderStatus.java" afterDir="false" />
+    <list default="true" id="dc775715-247b-46af-96c6-7e4dfe121c34" name="Changes" comment="[4-5] 실전예제1-요구사항 분석과 기본 매핑&#10;- 현재 상태는 데이터 중심설계임&#10;- 객체지향설계를 만족하진 않는 상태&#10; &#10;- 실전예제 프로젝트는 com.jpashop에 구현&#10;- 수업내용 연습코드는 각 section별 패키지에 작성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/section5/Member5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section5/Team5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/section5/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_6_24,_4_39 PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_6_24__4_39PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/section4/Member4_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/section4/Member4_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpashop/domain/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +45,13 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/hyeonjichoi/Desktop/DevStudy/[인프런]자바ORM표준 JPA프로그래밍-기본편/ex1-hello-jpa"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jpashop.domain" />
@@ -61,7 +61,7 @@
       <recent name="section4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.jpashop.JpaMain">
+  <component name="RunManager" selected="Application.Test5">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
       <module name="ex1-hello-jpa" />
@@ -101,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section5.Test5" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.jpashop.JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jpashop.JpaMain" />
       <module name="ex1-hello-jpa" />
@@ -114,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="section3.JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section3.JpaMain" />
-      <module name="ex1-hello-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5" />
         <item itemvalue="Application.com.jpashop.JpaMain" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.JpaMain" />
-        <item itemvalue="Application.section3.JpaMain" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707287990549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[4-5] 실전예제1-요구사항 분석과 기본 매핑&#10;- 현재 상태는 데이터 중심설계임&#10;- 객체지향설계를 만족하진 않는 상태&#10; &#10;- 실전예제 프로젝트는 com.jpashop에 구현&#10;- 수업내용 연습코드는 각 section별 패키지에 작성">
+      <created>1707377008498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707377008498</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +197,7 @@
     <MESSAGE value="[2-2]Hello JPA-애플리케이션 개발 (2)회원 삭제/수정" />
     <MESSAGE value="..?" />
     <MESSAGE value="[4-4] 기본키 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="[4-4] 기본키 매핑" />
+    <MESSAGE value="[4-5] 실전예제1-요구사항 분석과 기본 매핑&#10;- 현재 상태는 데이터 중심설계임&#10;- 객체지향설계를 만족하진 않는 상태&#10; &#10;- 실전예제 프로젝트는 com.jpashop에 구현&#10;- 수업내용 연습코드는 각 section별 패키지에 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="[4-5] 실전예제1-요구사항 분석과 기본 매핑&#10;- 현재 상태는 데이터 중심설계임&#10;- 객체지향설계를 만족하진 않는 상태&#10; &#10;- 실전예제 프로젝트는 com.jpashop에 구현&#10;- 수업내용 연습코드는 각 section별 패키지에 작성" />
   </component>
 </project>
